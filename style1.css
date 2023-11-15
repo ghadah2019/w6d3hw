@@ -13,7 +13,7 @@
 
 .booksContainer {
 	width: 22rem;
-	height: 30rem;
+	height: 50rem;
 	border-radius: 18px;
 	align-items: center;
 	border: 1px solid #50dbb4;
@@ -49,6 +49,6 @@
 	margin-top: 10px;
 	text-align: justify;
 	
-	width: 25rem;
+	width: 16rem;
 }
 

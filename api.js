@@ -1,9 +1,9 @@
-
+let container = document.getElementById('container');
 fetch('https://65523eec5c69a7790329c24c.mockapi.io/users/books', { method: 'GET' })
 	.then((res) => res.json())
 	.then((data) => {
 		console.log(data);
-        const container = document.getElementById('container');
+       
 
 		for (let i = 0; i < data.length; i++) {
 			let booksContainer = document.createElement('div');
@@ -35,8 +35,8 @@ fetch('https://65523eec5c69a7790329c24c.mockapi.io/users/books', { method: 'GET'
 			image.src = data[i].image;
 			description.innerText = data[i].description;
 			author.innerText = data[i].author;
-			let welcomeUser = document.getElementById('welcome-user');
-			welcomeUser.innerText = ` Welcome ${localStorage.getItem('name')}`;
+			// let welcomeUser = document.getElementById('welcome-user');
+			// welcomeUser.innerText = ` Welcome ${localStorage.getItem('name')}`;
 
 			if (localStorage.getItem('name') === 'admin') {
 				btn.style.display = 'block';
