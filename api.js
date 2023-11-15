@@ -1,5 +1,5 @@
 let container = document.getElementById('container');
-fetch('https://65523eec5c69a7790329c24c.mockapi.io/users/books', { method: 'GET' })
+fetch('https://655242ab5c69a7790329ca48.mockapi.io/bookks', { method: 'GET' })
 	.then((res) => res.json())
 	.then((data) => {
 		console.log(data);
@@ -47,7 +47,7 @@ fetch('https://65523eec5c69a7790329c24c.mockapi.io/users/books', { method: 'GET'
 	});
 
 function deleteBook(id) {
-	fetch(`https://65523eec5c69a7790329c24c.mockapi.io/users/books/${id}`, { method: 'DELETE' })
+	fetch(`https://655242ab5c69a7790329ca48.mockapi.io/bookks/${id}`, { method: 'DELETE' })
 		.then((res) => res.json())
 		.then((data) => console.log(data));
 }
