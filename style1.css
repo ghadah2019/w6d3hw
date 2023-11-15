@@ -1,0 +1,54 @@
+
+
+
+.container {
+	display: grid;
+    width: 100%;
+	grid-template-columns: auto auto auto auto;
+	gap: 14px;
+	justify-content: center;
+	margin-top: 20px;
+  
+}
+
+.booksContainer {
+	width: 22rem;
+	height: 30rem;
+	border-radius: 18px;
+	align-items: center;
+	border: 1px solid #50dbb4;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+
+.btn1{
+	display: none;
+	border-radius: 20px;
+	border: none;
+	background-color:  #24bac0;
+	color: rgb(21, 18, 18);
+	width: 12vw;
+	height: 6vh;
+}
+
+.images {
+	height: 25rem;
+	margin-top: 20px;
+}
+
+.title {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+
+
+.description {
+	margin-top: 10px;
+	text-align: justify;
+	
+	width: 25rem;
+}
+
